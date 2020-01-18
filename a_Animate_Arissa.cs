@@ -13,7 +13,7 @@ public class a_Animate_Arissa : MonoBehaviour
         // 1
         public Animator anim_arissa;
 
-        // FART -- Dhank -- Doesnt Work -- https://docs.unity3d.com/Manual/gui-Layout.html
+        // FOO_Dhank -- Doesnt Work -- https://docs.unity3d.com/Manual/gui-Layout.html
         // string str_Arissa_FloorDance = "User has Hit Key = C .Triggered Animation = Arissa_FloorDance - MIDWAY";
         //public static System.String str_Arissa_FloorDance = "User has Hit Key = C .Triggered Animation = Arissa_FloorDance - MIDWAY";
 

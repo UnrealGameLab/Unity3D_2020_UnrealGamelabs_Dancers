@@ -71,22 +71,6 @@ void Update()
 }
 
 
-
-    // BELOW OLD CODE 
-    // void OnGUI ()
-    // {
-    //     if ( Input.GetKey( KeyCode.Escape ) )
-    //     {
-    //         GUILayout.BeginArea(new Rect(0f, 7f, 100, 100));
-    //         GUILayout.Button("Click me");
-    //         Debug.Log("FART----Space key is pressed.");
-    //         GUILayout.EndArea();
-    //     }
-    // }
-
-
-
-
     // Start is called before the first frame update
     // void Start()
     // {
