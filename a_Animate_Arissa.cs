@@ -139,6 +139,7 @@ public class a_Animate_Arissa : MonoBehaviour
                     if(drawGui == true)
                     {
                         GUILayout.BeginArea(new Rect(60, 500, 500, 50));
+                        GUI.contentColor = Color.red; // FOO - Check
                         GUILayout.Button(GUI_TextValue);
                         GUILayout.Label("-#--ANIMATION ALERT--#-");
                         GUILayout.EndArea();
