@@ -138,10 +138,12 @@ public class a_Animate_Arissa : MonoBehaviour
                 {
                     if(drawGui == true)
                     {
-                        GUILayout.BeginArea(new Rect(60, 500, 500, 50));
-                        GUI.contentColor = Color.red; // FOO - Check
+                        GUILayout.BeginArea(new Rect(50, 450, 500, 50));
+                        // GUILayout.BeginArea(new Rect(50, 500, 500, 50)); // hardcoded in the -- ThirdPersonUserControl.cs
+                        GUI.contentColor = Color.white; // Text Color and LABEL Color Both 
                         GUILayout.Button(GUI_TextValue);
                         GUILayout.Label("-#--ANIMATION ALERT--#-");
+                        //GUILayout.Label("Version: " + StylizedWaterCore.INSTALLED_VERSION, Footer);
                         GUILayout.EndArea();
                     }
                 } // ENDS -- void OnGUI()
